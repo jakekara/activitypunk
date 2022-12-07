@@ -1,0 +1,2 @@
+requests==2.28.1
+pyOpenSSL==22.1.0
