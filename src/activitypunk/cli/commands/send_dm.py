@@ -1,11 +1,11 @@
 
 import json
-from activitypunk_jakekara.activities.direct_message import direct_message
-from activitypunk_jakekara.actor import ActivityPubActor, ActivityPubFirstPartyActor
-from activitypunk_jakekara.cli.commands.command import Command
-from activitypunk_jakekara.config import ActivityPunkConfig
-from activitypunk_jakekara.deliver import deliver
-from activitypunk_jakekara.user import User
+from activitypunk.activities.direct_message import direct_message
+from activitypunk.actor import ActivityPubActor, ActivityPubFirstPartyActor
+from activitypunk.cli.commands.command import Command
+from activitypunk.config import ActivityPunkConfig
+from activitypunk.deliver import deliver
+from activitypunk.user import User
 
 
 class SendDirectMessageCommand(Command):

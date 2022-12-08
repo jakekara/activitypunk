@@ -1,10 +1,10 @@
 import argparse
-from activitypunk_jakekara.cli.commands.actor import ActorCommand
-from activitypunk_jakekara.cli.commands.config import ConfigCommand
-from activitypunk_jakekara.cli.commands.inbox import InboxCommand
-from activitypunk_jakekara.cli.commands.send_dm import SendDirectMessageCommand
-from activitypunk_jakekara.cli.commands.webfinger import WebfingerCommand
-from activitypunk_jakekara.config import ActivityPunkConfig
+from activitypunk.cli.commands.actor import ActorCommand
+from activitypunk.cli.commands.config import ConfigCommand
+from activitypunk.cli.commands.inbox import InboxCommand
+from activitypunk.cli.commands.send_dm import SendDirectMessageCommand
+from activitypunk.cli.commands.webfinger import WebfingerCommand
+from activitypunk.config import ActivityPunkConfig
 
 commands = [WebfingerCommand, ActorCommand, ConfigCommand, SendDirectMessageCommand, InboxCommand]
 

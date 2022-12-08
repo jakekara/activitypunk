@@ -1,8 +1,8 @@
 import base64
-from activitypunk_jakekara.config import ActivityPunkConfig
-from activitypunk_jakekara.user import User
-from activitypunk_jakekara.utils.parsers import UserStringTypes, determine_user_string_type
-from activitypunk_jakekara.webfinger import Webfinger
+from activitypunk.config import ActivityPunkConfig
+from activitypunk.user import User
+from activitypunk.utils.parsers import UserStringTypes, determine_user_string_type
+from activitypunk.webfinger import Webfinger
 import requests
 from OpenSSL import crypto
 

@@ -14,7 +14,7 @@ from hashlib import sha256
 from wsgiref.handlers import format_date_time
 import requests
 
-from activitypunk_jakekara.actor import ActivityPubFirstPartyActor
+from activitypunk.actor import ActivityPubFirstPartyActor
 
 def http_date_str():
     now = datetime.now()

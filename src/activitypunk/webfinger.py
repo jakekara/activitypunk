@@ -1,4 +1,4 @@
-from activitypunk_jakekara.user import User
+from activitypunk.user import User
 import requests
 
 class Webfinger:

@@ -1,5 +1,5 @@
-from activitypunk_jakekara.actor import ActivityPubActor
-from activitypunk_jakekara.utils.time import isonow
+from activitypunk.actor import ActivityPubActor
+from activitypunk.utils.time import isonow
 from hashlib import md5
 
 def direct_message(sender: ActivityPubActor, recipient: ActivityPubActor, message):

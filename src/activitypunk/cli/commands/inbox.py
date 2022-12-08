@@ -1,8 +1,8 @@
 import os
 import shutil
-from activitypunk_jakekara.cli.commands.command import Command
-from activitypunk_jakekara.config import ActivityPunkConfig
-from activitypunk_jakekara.inbox_manager.s3_activity import S3Activity
+from activitypunk.cli.commands.command import Command
+from activitypunk.config import ActivityPunkConfig
+from activitypunk.inbox_manager.s3_activity import S3Activity
 import subprocess
 
 class InboxCommand(Command):

@@ -1,6 +1,6 @@
-from activitypunk_jakekara.cli.commands.command import Command
-from activitypunk_jakekara.user import User
-from activitypunk_jakekara.webfinger import Webfinger
+from activitypunk.cli.commands.command import Command
+from activitypunk.user import User
+from activitypunk.webfinger import Webfinger
 import json
 
 
@@ -17,8 +17,6 @@ class WebfingerCommand(Command):
     @staticmethod
     def main(args):
         
-        print(f"webfinger {args.user}")
-
         user = User.from_user_at_host(args.user)
 
         webfinger = Webfinger(user)

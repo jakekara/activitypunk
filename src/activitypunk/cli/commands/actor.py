@@ -1,7 +1,7 @@
 import json
-from activitypunk_jakekara.actor import ActivityPubActor, ActivityPubFirstPartyActor
-from activitypunk_jakekara.cli.commands.command import Command
-from activitypunk_jakekara.user import User
+from activitypunk.actor import ActivityPubActor, ActivityPubFirstPartyActor
+from activitypunk.cli.commands.command import Command
+from activitypunk.user import User
 
 class ActorCommand(Command):
 

@@ -1,7 +1,7 @@
 
 
-from activitypunk_jakekara.cli.commands.command import Command
-from activitypunk_jakekara.config import ActivityPunkConfig
+from activitypunk.cli.commands.command import Command
+from activitypunk.config import ActivityPunkConfig
 
 
 class ConfigCommand(Command):

@@ -1,5 +1,5 @@
 import json
-from activitypunk_jakekara.inbox_manager.activity import Activity
+from activitypunk.inbox_manager.activity import Activity
 from requests import Request
 
 

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "activitypunk_jakekara"
+name = "activitypunk"
 version = "0.0.1"
 authors = [
   { name="Jake Kara", email="jake@jakekara.com" },
@@ -22,4 +22,4 @@ classifiers = [
 "Bug Tracker" = "https://github.com/jakekara/activitypunk/issues"
 
 [project.scripts]
-apunk = "activitypunk_jakekara.cli:main"
+apunk = "activitypunk.cli:main"

@@ -1,4 +1,4 @@
-from activitypunk_jakekara.utils.parsers import UserStringTypes, determine_user_string_type
+from activitypunk.utils.parsers import UserStringTypes, determine_user_string_type
 
 class User:
     user = None
